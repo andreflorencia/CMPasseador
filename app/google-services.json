@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006958587935",
+    "project_id": "petscm-8b649",
+    "storage_bucket": "petscm-8b649.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006958587935:android:25e2ecda5cb5cb44b6252a",
+        "android_client_info": {
+          "package_name": "com.example.petscm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006958587935-s4gjprmhbucl060t9eh8f3sbctj3spab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqjjdwfkfFcvdPHz4V68tn06XL_1D6WSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006958587935-s4gjprmhbucl060t9eh8f3sbctj3spab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
