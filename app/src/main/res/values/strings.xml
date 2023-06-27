@@ -19,4 +19,33 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="petwalk">PETWALK</string>
+    <string name="adicionar_pet">Adicionar PET</string>
+    <string name="nome">Nome</string>
+    <string name="tipo">Tipo</string>
+    <string name="user1">user1</string>
+    <string name="a_walk_for_a_healthy_pet">A walk for a healthy PET</string>
+    <string name="os_seus_pets">Os seus PETS</string>
+    <string name="os_seus_passeios">Os seus passeios</string>
+    <string name="passeador1">passeador1</string>
+    <string name="sexo">Sexo</string>
+    <string name="porte">Porte</string>
+    <string name="idade">Idade</string>
+    <string name="escolha_o_passeador">Escolha o passeador</string>
+    <string name="começar_passeio">Começar Passeio</string>
+    <string-array name="attributes_tipo">
+        <item>Cão</item>
+        <item>Gato</item>
+        <item>Outro</item>
+    </string-array>
+    <string-array name="attributes_sexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+    <string-array name="attributes_porte">
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
 </resources>
