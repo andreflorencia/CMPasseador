@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFF80">
+    android:background="#fbeb63">
 
     <LinearLayout
         android:id="@+id/topPanel"
@@ -54,6 +54,12 @@
             android:layout_marginStart="@dimen/_124dp"
             android:layout_marginBottom="@dimen/_64dp"
             android:text="@string/adicionar_pet"/>
+
+        <ImageView
+            android:layout_width="294dp"
+            android:layout_height="116dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/dog"></ImageView>
     </LinearLayout>
 
 
@@ -67,6 +73,14 @@
         android:textSize="@dimen/_24sp"
         android:textStyle="bold">
     </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/topPanel">
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"

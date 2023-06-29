@@ -2,12 +2,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFF80">
+    android:background="#fbeb63">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/top">
 
         <TextView
             android:id="@+id/titulo"
@@ -52,6 +53,18 @@
         android:textStyle="bold">
     </TextView>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/top">
+
+        <ImageView
+            android:layout_width="308dp"
+            android:layout_height="132dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/patas"></ImageView>
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"

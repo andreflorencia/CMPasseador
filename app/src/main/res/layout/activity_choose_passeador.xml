@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFF80">
+    android:background="#fbeb63">
 
     <LinearLayout
         android:id="@+id/topPanel"
@@ -65,6 +65,12 @@
             android:layout_marginStart="@dimen/_124dp"
             android:layout_marginBottom="@dimen/_64dp"
             android:text="@string/começar_passeio"/>
+
+        <ImageView
+            android:layout_width="269dp"
+            android:layout_height="178dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/patas"></ImageView>
     </LinearLayout>
 
     <TextView

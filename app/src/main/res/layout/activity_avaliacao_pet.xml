@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFF80">
+    android:background="#fbeb63">
 
     <LinearLayout
         android:id="@+id/topPanel"
@@ -66,17 +66,15 @@
             android:text="Obrigado por passear connosco!"
             android:textSize="@dimen/_20sp"
             android:textStyle="bold">
-
         </TextView>
-    </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:text="@string/a_walk_for_a_healthy_pet"
-        android:textSize="@dimen/_20sp"
-        android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="422dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logocomletra"></ImageView>
+
+    </LinearLayout>
 
 </RelativeLayout>
