@@ -10,6 +10,7 @@ import android.graphics.Color
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import com.example.petscm.R
+import com.example.petscm.models.DriverGeoModel
 import com.example.petscm.models.DriverInfoModel
 import com.google.android.gms.maps.model.Marker
 
@@ -60,11 +61,11 @@ object Constants {
         builder.setContentText(body)
         builder.setPriority(NotificationCompat.PRIORITY_HIGH)
         builder.setDefaults(android.app.Notification.DEFAULT_VIBRATE)
-        builder.setSmallIcon(R.drawable.baseline_person_24)
+        builder.setSmallIcon(R.drawable.baseline_directions_car)
         builder.setLargeIcon(
             BitmapFactory.decodeResource(
                 context.resources,
-                R.drawable.baseline_person_24
+                R.drawable.baseline_directions_car
             )
         )
 
@@ -82,6 +83,7 @@ object Constants {
 
     val markerList: MutableMap<String, Marker> = HashMap()
     val DRIVER_INFO_REFERNCE: String = "DriverInfo"
+    val driversFound: MutableSet<DriverGeoModel> = HashSet()
     val DRIVER_LOCATION_REFERENCE: String = "Driverlocation"
     val NOTI_BODY: String = "body"
     val NOTI_TITLE = "title"
