@@ -16,7 +16,7 @@
 
         <item
             android:id="@+id/nav_passeios"
-            android:icon="@drawable/baseline_exit"
+            android:icon="@drawable/mypets"
             android:title="@string/menu_meusPasseios" />
     </group>
 </menu>
