@@ -171,11 +171,20 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/buttonAddPage2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_124dp"
             android:layout_marginBottom="@dimen/_64dp"
             android:text="@string/adicionar_pet"/>
+
+        <Button
+            android:id="@+id/buttonVoltarAtras2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_124dp"
+            android:layout_marginBottom="@dimen/_8dp"
+            android:text="Voltar Atrás" />
     </LinearLayout>
 
 

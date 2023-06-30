@@ -60,6 +60,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/buttonAddPage3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_124dp"
@@ -67,10 +68,20 @@
             android:text="@string/começar_passeio"/>
 
         <ImageView
-            android:layout_width="269dp"
-            android:layout_height="178dp"
+            android:layout_width="242dp"
+            android:layout_height="137dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/patas"></ImageView>
+
+        <Button
+            android:id="@+id/buttonVoltarAtras3"
+            android:layout_width="167dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="@dimen/_64dp"
+            android:layout_marginStart="@dimen/_124dp"
+            android:layout_marginLeft="@dimen/_124dp"
+            android:layout_marginBottom="@dimen/_64dp"
+            android:text="Voltar Atrás" />
     </LinearLayout>
 
     <TextView

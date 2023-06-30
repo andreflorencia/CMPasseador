@@ -49,18 +49,30 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/buttonAddPage1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_124dp"
             android:layout_marginBottom="@dimen/_64dp"
             android:text="@string/adicionar_pet"/>
 
+
         <ImageView
             android:layout_width="294dp"
             android:layout_height="116dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/dog"></ImageView>
+
+        <Button
+            android:id="@+id/buttonVoltarAtras1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_64dp"
+            android:layout_marginLeft="@dimen/_124dp"
+            android:text="Voltar Atrás" />
     </LinearLayout>
+
+
 
 
     <TextView
