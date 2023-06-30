@@ -13,5 +13,10 @@
             android:id="@+id/nav_sing_out"
             android:icon="@drawable/baseline_exit"
             android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_passeios"
+            android:icon="@drawable/baseline_exit"
+            android:title="@string/menu_meusPasseios" />
     </group>
 </menu>
